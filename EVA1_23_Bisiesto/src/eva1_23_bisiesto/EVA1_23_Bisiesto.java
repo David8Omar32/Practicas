@@ -16,7 +16,7 @@ public class EVA1_23_Bisiesto {
         if(a==0 && c==0){
             if(b==0){
                 System.out.println("Es bisiesto");
-            } else if(b==1){
+            } else if(b!=0){
                 System.out.println("No es bisiesto");
             }
         } else if (a==0 && c!=0){
